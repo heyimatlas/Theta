@@ -1,0 +1,157 @@
+const discord = require ('discord.js');
+
+var client = new discord.Client();
+var options = ["BAILEY IS A FUCKING CUNT", "BAILEY IS A STUPID FUCKIN WETBACK", "MENTION THAT MONKEY FUCKER AGAIN, AND ILL CUT YOUR FUCKING NUTS OFF AND GLUE THEM TO YOUR FOREHEAD", "Bailey? *Ohhh*, you mean that DUMB PIECE OF FUCKING MONKEY SHIT", "Who lives in a pineapple under the sea? I hope one day Bailey so he fucking drowns, the cunt.", "That dumb assfuck couldn't pour piss out of a boot if the instructions were on the fucking heel.", "BAILEY IS A DUMB FUCKING FAGGOT", "BAILEY IS A SHIT EATING, CRACK SMOKING CUNT", "THAT CUNT CAN'T EVEN ADD 2+2, DUMB PIECE OF SHIT", "THAT CUNT'S MOTHER SHOULD HAVE SWOLLOWED", "I WOULDN'T PAY THAT DUMB FUCK TO EAT MY SHIT FILLED ASSCRACK", "const fact (Bailey = fucktard) == true", "Ten pounds of gay in a One pound sack, that cunt...", "Did someone say retard?", "Did someone say gay cunt?", "I'd rather be Hitler's fuckbuddy than think about that cunt", "That dickhead can crawl into the corner and die like the fucking cockroach he is.", "Fun Fact! Bailey is a stupid piece of shit. Bonus Fact! He's lower than fucking pond scum.", "Fee Fi Fo Fum, I smell a gay retard's name being said.", "const betterthan (hitler>bailey) == true"];
+
+const token = "TOKEN";
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
+client.on ("ready", () => {
+    console.log ("ready");
+
+    client.user.setActivity ("I bully because i'm insecure");
+});
+
+const prefix = ">";
+client.on ("message", (message) => {
+
+    if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + "hi")) {
+        message.channel.send ('Eat a dick, cunt');
+    }
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + "how you doing")) {
+        message.channel.send ('Suck on my phat fucking nuts you whore');
+    }
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + "why are you such a dick")) {
+        message.channel.send ('Why are you so goddamned nosey, huh? I was programmed to be an ass, so go fuck yourself in the ass with a cactus you piece of shit.');
+    }
+    }
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + "fuck you")) {
+        message.channel.send ('is that part of your bucket list? :smiling_imp:');
+    }
+    }
+
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("what does a cunt look like?"))) {
+        message.channel.send ("First pic off of google. https://cdn.discordapp.com/attachments/683095184824729664/683133720613617677/cunt.PNG");
+    }
+    }
+    
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("is addie an epic gamer"))) {
+        message.channel.send ("of course not. she is a fuckin biatch");
+    }
+    }
+
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("who are you?"))) {
+        message.channel.send ("Im fuckin Theta. Cant you read, you dumb son of a bitch?");
+    }
+    }
+    
+    {
+        if (message.author.bot) return;
+
+    if (message.content.includes (("bailey"))) {
+        var response = options[Math.floor(Math.random()*options.length)];
+        message.channel.send(response).then().catch(console.error);
+    }
+    }
+
+
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("invite"))) {
+        message.channel.send ("You dont deserve a fuckin' invite to my dumbass creator's server, but fine I guess... https://discord.gg/JehWMAa");
+    }
+    }
+
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("snowflake"))) {
+        message.channel.send ("Aww, is lil bitch baby bein' a lil' snowflake? you wanna go nite-nite? wanna go nite-nite baby-boo? grow the fuck up, pussy.");
+    }
+    }
+
+        {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("howdy"))) {
+        message.channel.send ("*pardner.*");
+    }
+    }
+
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("owo"))) {
+        message.channel.send ("https://cdn.discordapp.com/attachments/683095184824729664/684260099665035270/unknown.png");
+    }
+    }
+
+    {
+        if (message.author.bot) return;
+
+    if (message.content.startsWith (prefix + ("uwu"))) {
+        message.channel.send ("https://cdn.discordapp.com/attachments/683095184824729664/684259981884915788/unknown.png");
+    }
+    }
+
+    {
+
+          }
+          var random = getRandomInt(100);
+
+        if (message.author.bot) return;
+
+        if (message.content.startsWith (prefix + ("gamer"))) {
+
+            var random = getRandomInt(100);     
+            if (random > 90) {
+                message.channel.send("You're " + random + "% gamer. That's one epic fuckin' gamer...");
+                 }    
+                    if ((random > 10) && (random < 90))
+                    {
+                    message.channel.send("You are " + random + "% Ga" + (Math.random() < 0.01 ? "y" : "") + "mer.");
+                    }
+                
+                        if (random < 10)
+                        {
+                        message.channel.send("You're " + random + "% gamer. You are no gamer, CUNT!!!");
+                        }
+                    }
+
+    {
+    if (message.author.bot) return;
+               
+    if (message.content.startsWith (prefix + ("porn"))) {
+     message.channel.send ("https://cdn.discordapp.com/attachments/675504530947047435/685739255603265588/image0.jpg");
+    }
+    }
+
+
+    
+}
+});
+
+client.login (token);
